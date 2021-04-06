@@ -33,6 +33,7 @@ __kubectl_abbr keti      kubectl exec -ti
 # Manage configuration quickly to switch contexts between local, dev ad staging.
 __kubectl_abbr kcuc      kubectl config use-context
 __kubectl_abbr kcsc      kubectl config set-context
+__kubectl_abbr kcsccn    kubectl config set-context --current --namespace
 __kubectl_abbr kcdc      kubectl config delete-context
 __kubectl_abbr kccc      kubectl config current-context
 

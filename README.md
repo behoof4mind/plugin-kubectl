@@ -13,13 +13,13 @@
 ## Install
 
 ```fish
-$ omf install https://github.com/blackjid/plugin-kubectl
+$ omf install https://github.com/behoof4mind/plugin-kubectl
 ```
 
 or with fisher
 
 ```fish
-$ fisher blackjid/plugin-kubectl
+$ fisher behoof4mind/plugin-kubectl
 ```
 
 ## Usage
@@ -48,6 +48,7 @@ $ fisher blackjid/plugin-kubectl
 | ------------ | ---------------------------------------------------- |
 | kcuc         | `kubectl config use-context`                         |
 | kcsc         | `kubectl config set-context`                         |
+| kcsccn       | `kubectl config set-context --current --namespace`   |
 | kcdc         | `kubectl config delete-context`                      |
 | kccc         | `kubectl config current-context`                     |
 

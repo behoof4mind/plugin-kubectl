@@ -225,12 +225,12 @@ This was shamelessly based on on the [fish git plugin](fish-git) from [James Hil
 
 # License
 
-[MIT][mit] © [Juan Ignacio Donoso][author] et [al][contributors]
+[MIT][mit] © [Denis Lavrushko][author]
 
 
 [mit]:                https://opensource.org/licenses/MIT
-[author]:             https://github.com/blackjid
-[contributors]:       https://github.com/blackjid/plugin-git/graphs/contributors
+[author]:             https://github.com/behoof4mind
+[contributors]:       https://github.com/behoof4mind/plugin-kubectl/graphs/contributors
 [omf-link]:           https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:      https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square

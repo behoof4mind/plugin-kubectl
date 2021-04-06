@@ -75,6 +75,12 @@ __kubectl_abbr kei       kubectl edit ingress
 __kubectl_abbr kdi       kubectl describe ingress
 __kubectl_abbr kdeli     kubectl delete ingress
 
+# RoleBinding management
+__kubectl_abbr kgrb      kubectl get rolebinding
+__kubectl_abbr kerb      kubectl edit rolebinding
+__kubectl_abbr kdrb      kubectl describe rolebinding
+__kubectl_abbr kdelrb    kubectl delete rolebinding
+
 # Namespace management
 __kubectl_abbr kgns      kubectl get namespaces
 __kubectl_abbr kens      kubectl edit namespace

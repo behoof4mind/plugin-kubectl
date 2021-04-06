@@ -101,6 +101,15 @@ $ fisher behoof4mind/plugin-kubectl
 | kdi          | `kubectl describe ingress`                           |
 | kdeli        | `kubectl delete ingress`                             |
 
+### RoleBinding management
+
+| Abbreviation | Command                                              |
+| ------------ | ---------------------------------------------------- |
+| kgrb         | `kubectl get rolebinding`                                |
+| kerb         | `kubectl edit rolebinding`                               |
+| kdrb         | `kubectl describe rolebinding`                           |
+| kdelrb       | `kubectl delete rolebinding`
+
 ### Namespace management
 
 | Abbreviation | Command                                              |

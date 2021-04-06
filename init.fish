@@ -81,6 +81,13 @@ __kubectl_abbr kerb      kubectl edit rolebinding
 __kubectl_abbr kdrb      kubectl describe rolebinding
 __kubectl_abbr kdelrb    kubectl delete rolebinding
 
+# CronJob management
+__kubectl_abbr kgcj      kubectl get cronjob
+__kubectl_abbr kecj      kubectl edit cronjob
+__kubectl_abbr kdcj      kubectl describe cronjob
+__kubectl_abbr ktcj      kubectl create job --from=cronjob/
+__kubectl_abbr kdelcj    kubectl delete cronjob`
+
 # Namespace management
 __kubectl_abbr kgns      kubectl get namespaces
 __kubectl_abbr kens      kubectl edit namespace

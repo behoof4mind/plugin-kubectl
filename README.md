@@ -105,10 +105,20 @@ $ fisher behoof4mind/plugin-kubectl
 
 | Abbreviation | Command                                              |
 | ------------ | ---------------------------------------------------- |
-| kgrb         | `kubectl get rolebinding`                                |
-| kerb         | `kubectl edit rolebinding`                               |
-| kdrb         | `kubectl describe rolebinding`                           |
+| kgrb         | `kubectl get rolebinding`                            |
+| kerb         | `kubectl edit rolebinding`                           |
+| kdrb         | `kubectl describe rolebinding`                       |
 | kdelrb       | `kubectl delete rolebinding`
+
+### CronJob management
+
+| Abbreviation | Command                                              |
+| ------------ | ---------------------------------------------------- |
+| kgcj         | `kubectl get cronjob`                            |
+| kecj         | `kubectl edit cronjob`                           |
+| kdcj         | `kubectl describe cronjob`                       |
+| ktcj         | `kubectl create job --from=cronjob/`                       |
+| kdelcj       | `kubectl delete cronjob`
 
 ### Namespace management
 

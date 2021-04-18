@@ -237,6 +237,15 @@ $ fisher behoof4mind/plugin-kubectl
 | kdpvc        | `kubectl describe pvc`                               |
 | kdelpvc      | `kubectl delete pvc`                                 |
 
+### PV management.
+
+| Abbreviation | Command                                              |
+| ------------ | ---------------------------------------------------- |
+| kgpv        | `kubectl get pv`                                      |
+| kgpvw       | `kubectl get pv --watch`                              |
+| kepv        | `kubectl edit pv`                                     |
+| kdpv        | `kubectl describe pv`                                 |
+| kdelpv      | `kubectl delete pv`                                   |
 
 # Credits
 

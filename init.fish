@@ -173,6 +173,13 @@ __kubectl_abbr kepvc     kubectl edit pvc
 __kubectl_abbr kdpvc     kubectl describe pvc
 __kubectl_abbr kdelpvc   kubectl delete pvc
 
+# PV management.
+__kubectl_abbr kgpv     kubectl get pv
+__kubectl_abbr kgpvw    kubectl get pv --watch
+__kubectl_abbr kepv     kubectl edit pv
+__kubectl_abbr kdpv     kubectl describe pv
+__kubectl_abbr kdelpv   kubectl delete pv
+
 # Cleanup declared functions
 functions -e __kubectl_abbr
 
